@@ -1,0 +1,20 @@
+nav {
+  background-color: white;
+}
+.search {
+  width: fit-content !important;
+}
+.search button {
+  background-color: orange;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+}
+
+.loginBtn {
+  background: none !important;
+  color: orange;
+  border: none !important;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 10%;
+}
