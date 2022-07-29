@@ -3,6 +3,7 @@
   padding-right: 150px;
 }
 
+/* products section text */
 .p-text {
   font-weight: bold;
   color: #48b5f3;
@@ -30,4 +31,19 @@
 .address
  {
   text-shadow: 0px 4px 3px #E4E6E6 ;
+}
+/* make transition on the card */
+.card-img-top{
+  transition: 0.2s ease-in-out !important;
+  -webkit-transition: 0.2s ease-in-out !important;
+  -moz-transition: 0.2s ease-in-out !important;
+  -ms-transition: 0.2s ease-in-out !important;
+  -o-transition: 0.2s ease-in-out !important;
+}
+.card-img-top:hover{
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }

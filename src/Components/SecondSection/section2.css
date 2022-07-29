@@ -1,5 +1,5 @@
 .sectionContainer {
-  padding: 0 20%;
+  padding: 0 10%;
   margin: 15% 0 20% 0;
 }
 .coffeeImg::before {
@@ -27,7 +27,7 @@
 .text {
   font-size: 45px;
   font-weight: bold;
-  margin: 100px 0 0 100px;
+  margin: 100px 0 0 200px;
   position: relative;
 }
 .text::before {
@@ -40,11 +40,11 @@
 .text::after {
   content: " ";
   position: absolute;
-  width: 100%;
+  width: 127%;
   height: 6px;
   background-color: #ee8d35;
   top: 108%;
-  right: -2%;
+  right: -27%;
 }
 
 @media screen and (max-width: 576px) {

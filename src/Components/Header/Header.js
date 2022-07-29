@@ -14,7 +14,7 @@ const Header = () => {
           <input
             type="text"
             className="form-control "
-            placeholder="What do you want to learn gg?"
+            placeholder="What do you want to learn ?"
           />
           <button
             className="btn btn-outline-secondary"
@@ -27,10 +27,7 @@ const Header = () => {
           </button>
         </div>
         <button className="loginBtn">Login</button>
-        <button
-          className="btn btn mx-4 px-4 py-3 "
-          style={{ backgroundColor: "orange", color: "white" , fontSize: "17px" , fontWeight: "bold"}}
-        >
+        <button className=" mx-4 px-4 joinBtn">
           Join for free
           <span className="ms-4">
             <FontAwesomeIcon icon={faArrowRight} />

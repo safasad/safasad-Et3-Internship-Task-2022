@@ -2,7 +2,7 @@ nav {
   background-color: white;
 }
 .search {
-  width: fit-content !important;
+  width: 300px !important;
 }
 .search button {
   background-color: orange;
@@ -17,4 +17,19 @@ nav {
   font-size: 17px;
   font-weight: bold;
   margin-left: 10%;
+}
+
+.joinBtn {
+  background-color: orange;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
