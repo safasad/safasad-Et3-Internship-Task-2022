@@ -3,7 +3,7 @@ import img from "../../assets/images/image.png";
 import "./section2.css";
 const SecondSection = () => {
   return (
-    <div className="sectionContainer mt-5">
+    <div className="sectionContainer ">
       <div className="position-relative d-inline-block">
         <div className="coffeeImg ">
           <img src={img} alt="coffee" />

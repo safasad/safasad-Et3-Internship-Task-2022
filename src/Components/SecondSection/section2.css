@@ -1,6 +1,6 @@
 .sectionContainer {
   padding: 0 20%;
-  margin-bottom: 20%;
+  margin: 15% 0 20% 0;
 }
 .coffeeImg::before {
   content: "";
@@ -13,15 +13,15 @@
   z-index: -1;
 }
 .coffeeImg::after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    left: -22px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #FDB921;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -22px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fdb921;
+  z-index: -1;
 }
 
 .text {
@@ -47,10 +47,8 @@
   right: -2%;
 }
 
-@media screen and (max-width: 576px) { 
-    .sectionContainer {
-        padding: 0 64px;;
-    }
-    
-   
- }
+@media screen and (max-width: 576px) {
+  .sectionContainer {
+    padding: 0 64px;
+  }
+}
