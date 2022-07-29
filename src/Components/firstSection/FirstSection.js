@@ -8,7 +8,7 @@ const FirstSection = () => {
         src={bgImg}
         alt="coffee"
         className=""
-        style={{ width: "100vw", height: "70vh" }}
+        style={{ width: "100%", height: "70vh" }}
       />
       <h1 className="position-absolute text1"> Caffee first ,</h1>
       <h1 className="position-absolute text2"> Schemes later .</h1>

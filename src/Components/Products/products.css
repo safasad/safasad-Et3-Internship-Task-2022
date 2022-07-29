@@ -1,0 +1,33 @@
+.productsCont {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.p-text {
+  font-weight: bold;
+  color: #48b5f3;
+}
+.productsCont h1 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 150px;
+}
+
+.card-title {
+  color: hsl(185deg 26% 35%);
+  font-weight: bold;
+}
+.reviews{
+    color: #E4E6E6;
+}
+.address{
+    font-weight: bold;
+    color: hsl(185deg 26% 35%);
+    
+}
+.card-title,
+.reviews,
+.address
+ {
+  text-shadow: 0px 4px 3px #E4E6E6 ;
+}
