@@ -1,5 +1,6 @@
 import FirstSection from './Components/firstSection/FirstSection';
 import Header from './Components/Header/Header';
+import JoinUs from './Components/joinUs/JoinUs';
 import Products from "./Components/Products/Products";
 import SecondSection from './Components/SecondSection/SecondSection';
 
@@ -10,6 +11,7 @@ function App() {
       <FirstSection/>
       <SecondSection/>
       <Products/>
+      <JoinUs/>
     
     </div>
   );
